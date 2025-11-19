@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Cadastrar Produto</title>
+</head>
+<body>
+    <h2>Cadastrar Novo Produto</h2>
+
+    <form method="POST">
+        <input type="text" name="nome" placeholder="Nome" required>
+        <input type="text" name="categoria" placeholder="Categoria" required>
+        <input type="number" name="preco" step="0.01" placeholder="Preço" required>
+        <input type="number" name="quantidade" placeholder="Quantidade" required>
+        <button type="submit" class="btn">Cadastrar</button>
+    </form>
+
+    <a href="/" class="btn">Voltar</a>
+</body>
+</html>

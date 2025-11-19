@@ -1,0 +1,44 @@
+body {
+    background: #f3f3f3;
+    font-family: Arial;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    background: #70927f;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background: #0048b3;
+}
+
+.excluir {
+    background: red;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.baixo {
+    background: #ffdddd;
+}
